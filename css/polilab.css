@@ -1,0 +1,320 @@
+@font-face {
+    font-family: DIN Pro; /* Имя шрифта */
+    src: url(../font/DINPro.ttf); /* Путь к файлу со шрифтом */
+}
+.container-banner{
+    height: 400px;
+    background: url("../images/polilab-banner.png");
+}
+.container-banner2{
+    height: 400px;
+    background: url("../images/banner-voronez.png");
+}
+.container-banner3{
+    height: 400px;
+    background: url("../images/banner-him.png");
+}
+.container-banner4{
+    height: 400px;
+    background: url("../images/banner-kras.png");
+}
+.banner{
+    width: 100%;
+}
+.banner-text{
+    width: 550px;
+    margin-left: 20%;
+    font-size: 24px;
+    color: white;
+    font-family: "DIN Pro";
+    padding-top: 100px;
+}
+.banner-text3{
+    padding-top: 70px;
+    width: 550px;
+    margin-left: 25%;
+    font-size: 24px;
+    color: white;
+    font-family: "DIN Pro";
+}
+#banner-title3{
+    line-height: 50px;
+}
+.banner-text2{
+    padding-top: 60px;
+    width: 600px;
+    margin-left: 25%;
+    font-size: 24px;
+    color: white;
+    font-family: "DIN Pro";
+    line-height: 55px;
+}
+.banner-text-text{
+    line-height: 32px;
+}
+.banner-text-text{
+    line-height: 32px;
+    margin-top: 20px;
+}
+.banner-title{
+    font-size: 48px;
+    font-weight: bold;
+}
+.container-content{
+    display: flex;
+    margin-top: 50px;
+}
+.right-content{
+    width: 265px;
+}
+.grey-block{
+    font-family: 'Open Sans', sans-serif;
+    background: #F0F0F0;
+    padding: 10px 15px;
+    height: 145px;
+    margin-bottom: 30px;
+    width: 265px;
+}
+.grey-block2{
+    font-family: 'Open Sans', sans-serif;
+    background: #F0F0F0;
+    padding: 10px 15px;
+    height: 75px;
+    margin-bottom: 30px;
+}
+.grey-block3{
+    width: 265px;
+    font-family: 'Open Sans', sans-serif;
+    background: #F0F0F0;
+    padding: 10px 15px;
+    height: 90px;
+    margin-bottom: 30px;
+}
+.mission-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.mission-text{
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 19px;
+    padding-right: 10px;
+}
+.direction-title{
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 30px;
+}
+.direction-green-block{
+    width: 265px;
+    height: 131px;
+    background: #008C96;
+}
+.direction-circle-row{
+    display: flex;
+    margin-bottom: 30px;
+}
+.deriction-cercle{
+    display: flex;
+    width: 265px;
+}
+.direction-top{
+    display: flex;
+    margin-bottom: 50px;
+}
+.img-circle{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding-left: 13px;
+    padding-top: 6px;
+    width: 35px;
+    height: 35px;
+    margin-right: 18px;
+    border-radius: 50%;
+    background: #008C96;
+}
+.circle-text{
+    color: #333333;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'Open Sans', sans-serif;
+}
+.direction-green-block{
+    padding: 10px 23px;
+    color: white;
+}
+.green-top{
+    margin-bottom: 10px;
+}
+.directions-bottom{
+    display: flex;
+}
+.bot-item{
+    display: flex;
+}
+.vector{
+    width: 50px;
+    height: 55px;
+    margin-right: 15px;
+}
+.bot-title{
+    width: 200px;
+    margin-bottom: 20px;
+    color: #00517E;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.bot-text-text{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 20px;
+}
+.text-block-title{
+    color: #008C96;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.abzac{
+    padding-right: 60px;
+}
+.director-link{
+    color: #008C96;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.direction-circles2{
+    display: flex;
+}
+#deriction-cercle3{
+    margin-top: 30px;
+}
+.site{
+    margin-top: 170px;
+    font-family: 'Open Sans', sans-serif;
+}
+.link-site{
+    color: #008C96;
+    font-weight: bold;
+}
+#deriction-cercle6{
+    margin-top: -50px;
+}
+
+.img-mobile{
+    display: none;
+}
+.banner-text-mobile{
+    display: none;
+}
+.right-content-mobile{
+    display: none;
+}
+.mission-text-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    .img-mobile{
+        display: block;
+        width: 100%;
+    }
+    .container-banner2{
+        display: none;
+    }
+    .banner-text-mobile{
+        display: block;
+        padding-top: 30px;
+        margin-left: 30px;
+        font-size: 24px;
+        color: #008C96;
+        font-family: "DIN Pro";
+        /*line-height: 55px;*/
+    }
+    .banner-title-mobile{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .banner-text-text-mobile{
+        line-height: 16px;
+        margin-top: 20px;
+    }
+    .right-content-mobile{
+        display: block;
+        margin-top: 30px;
+    }
+    .right-content{
+        display: none;
+    }
+    .container-content{
+        display: block;
+        margin-top: 0;
+    }
+    .grey-block2{
+        padding: 15px 30px;
+    }
+    .mission-title{
+        font-size: 16px;
+        margin-left: 15px;
+    }
+    .mission-text {
+        display: none;
+    }
+    .mission-text-mobile{
+        display: block;
+        font-size: 12px;
+        color: #333333;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 19px;
+        padding-right: 10px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    .direction-title{
+        margin-top: 15px;
+        font-size: 16px;
+        margin-left: 15px;
+    }
+    .direction-circles2{
+        display: block;
+    }
+    .direction-top{
+        display: block;
+    }
+    #deriction-cercle3{
+        margin-top: 0;
+    }
+    .deriction-cercle{
+        width: 100%;
+    }
+    .img-circle {
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        padding-left: 13px;
+        padding-top: 6px;
+        width: 35px;
+        height: 35px;
+        margin-right: 18px;
+        border-radius: 50%;
+        background: #008C96;
+    }
+    .circle-text{
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    .deriction-cercle{
+        margin-bottom: 15px;
+    }
+    .site{
+        margin-top: 20px;
+    }
+}
